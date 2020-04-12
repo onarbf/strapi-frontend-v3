@@ -19,7 +19,7 @@ const Article = () => {
               id="banner"
               className="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light uk-padding uk-margin"
               data-srcset={
-                process.env.REACT_APP_BACKEND_URL + article.thumbnail[0].url
+                process.env.REACT_APP_BACKEND_URL + article.thumbnail.url
               }
               data-uk-img
             >

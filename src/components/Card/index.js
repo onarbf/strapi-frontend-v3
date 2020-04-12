@@ -8,8 +8,8 @@ const Card = ({ article }) => {
       <div className="uk-card uk-card-muted">
         <div className="uk-card-media-top">
           <img
-            src={process.env.REACT_APP_BACKEND_URL + article.thumbnail[0].url}
-            alt={article.thumbnail[0].url}
+            src={process.env.REACT_APP_BACKEND_URL + article.thumbnail.url}
+            alt={article.thumbnail.url}
             height="100"
           />
         </div>
